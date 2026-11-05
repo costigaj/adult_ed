@@ -25,7 +25,7 @@ library(tidyr)
 library(ggplot2)
 
 # ---- 0. Inputs you should set ---------------------------------------------------
-typical_total  <- 24   # long-run average year-end total
+typical_total  <- nn   # < enter long-run average year-end total
 
 # Calibration switch:
 #   FALSE = keep rates fixed and let the model predict the year-end total
